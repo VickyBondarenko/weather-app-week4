@@ -29,6 +29,7 @@ export default function App() {
           <a
             href="https://github.com/VickyBondarenko/weather-app-week4"
             target="_blank"
+            rel="noreferrer"
           >
             Open-source code
           </a>
