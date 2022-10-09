@@ -1,38 +1,47 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h5 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  font-family: "Arimo", sans-serif;
+  font-size: 20px;
+  background: linear-gradient(
+    218deg,
+    rgb(241, 238, 169) 0%,
+    rgb(69, 191, 248) 100%,
+    rgb(197, 231, 248) 100%
+  );
+  border-radius: 10px;
+  max-width: 70%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  margin: 10px;
+  background: #e3f6f5;
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-day {
+  background: #e5f3f2;
 }
-
-.App-link {
-  color: #61dafb;
+.tex-lef {
+  text-align: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.city,
+.day,
+.day-temp {
+  font-weight: bold;
+  font-size: 30px;
+}
+.country {
+  font-size: 25px;
+}
+.icon-today {
+  padding-top: 10px;
 }
