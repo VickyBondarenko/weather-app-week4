@@ -24,6 +24,17 @@ export default function App() {
           <img src={Icon} alt="sun" className="icon-today" />
         </div>
       </div>
+      <small>
+        <span class="target">
+          <a
+            href="https://github.com/VickyBondarenko/weather-app-week4"
+            target="_blank"
+          >
+            Open-source code
+          </a>
+          , by Vicky Bondarenko
+        </span>
+      </small>
     </div>
   );
 }
